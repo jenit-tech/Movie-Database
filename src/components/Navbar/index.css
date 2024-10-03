@@ -1,0 +1,93 @@
+/* Navbar Styles */
+.navbar-container {
+  background-color: #b03060; /* Dark rose color */
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo-container {
+  background-image: linear-gradient(
+    to right,
+    #f28d8d,
+    #f0b6b6
+  ); /* Gradient from a soft pink to a lighter shade */
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.page-logo {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  color: #032541;
+  letter-spacing: 1px;
+  line-height: 38px;
+  padding: 0 5px;
+}
+
+/* Navigation Items */
+.nav-items-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav-items-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff !important;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Search Bar Styles */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.search-input {
+  outline: none;
+  border: 1px solid #f0b6b6; /* Lighter color from the logo gradient */
+  background-color: #b03060; /* Same dark rose background as navbar */
+  padding: 4px 12px 7px;
+  color: #f0b6b6; /* Light color for text */
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  min-width: 250px;
+  margin-right: 0.5rem;
+  border-radius: 4px; /* Added border-radius for consistency */
+}
+
+.search-button {
+  background-color: #f0b6b6; /* Match lighter color from logo gradient */
+  border: none; /* Remove border for a cleaner look */
+  color: #b03060; /* Dark rose color for text */
+  padding: 4px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.search-button:hover {
+  background-color: #b03060; /* Dark rose color on hover */
+  color: white; /* White text on hover */
+}
